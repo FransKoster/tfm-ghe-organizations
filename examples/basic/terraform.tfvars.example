@@ -1,0 +1,15 @@
+# =============================================================================
+# Example Variables for Basic GitHub Enterprise Organization
+# =============================================================================
+
+# Required enterprise configuration
+enterprise_slug = "my-enterprise"
+admin_logins    = ["admin-username"]
+billing_email   = "billing@yourcompany.com"
+
+# Organization information
+organization_display_name = "Your Organization Name"
+organization_description  = "A secure development organization"
+company_name             = "Your Company Name"
+location                 = "Your Location"
+public_email             = "contact@yourcompany.com"
