@@ -1,0 +1,47 @@
+# =============================================================================
+# Example Terraform Variables for GitHub Enterprise Organization
+# =============================================================================
+
+# Required: Enterprise configuration
+# Provide either enterprise_slug (recommended) or enterprise_id
+enterprise_slug = "my-enterprise"
+admin_logins    = ["admin1", "admin2"]
+billing_email   = "billing@example.com"
+
+# Optional: Organization creation (for new organizations)
+organization_name = "new-org-name"
+
+# Optional: Organization profile information
+company          = "Example Corporation"
+description      = "Example GitHub Enterprise Organization for secure development"
+email            = "contact@example.com"
+location         = "San Francisco, CA"
+name             = "Example Corp"
+twitter_username = "examplecorp"
+blog             = "https://blog.example.com"
+
+# Security settings (recommended defaults for enterprise security)
+advanced_security_enabled_for_new_repositories                = true
+dependency_graph_enabled_for_new_repositories                 = true
+dependabot_alerts_enabled_for_new_repositories                = true
+dependabot_security_updates_enabled_for_new_repositories      = true
+secret_scanning_enabled_for_new_repositories                  = true
+secret_scanning_push_protection_enabled_for_new_repositories  = true
+
+# Member permissions (restrictive defaults for security)
+default_repository_permission           = "read"
+members_can_create_internal_repositories = false
+members_can_create_pages                 = false
+members_can_create_private_pages         = false
+members_can_create_private_repositories  = false
+members_can_create_public_pages          = false
+members_can_create_public_repositories   = false
+members_can_create_repositories          = false
+members_can_fork_private_repositories    = false
+
+# Project settings
+has_organization_projects = true
+has_repository_projects   = true
+
+# Security requirements
+web_commit_signoff_required = false

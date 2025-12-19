@@ -1,0 +1,41 @@
+# =============================================================================
+# Example Variables for Comprehensive GitHub Enterprise Organization
+# =============================================================================
+
+# Required enterprise configuration
+enterprise_slug = "my-enterprise"
+admin_logins    = ["admin1", "admin2"]
+billing_email   = "billing@yourcompany.com"
+
+# Organization profile
+organization_display_name = "Your Organization Name"
+organization_description  = "A comprehensive secure development organization"
+company_name             = "Your Company Name"
+location                 = "Your Location"
+public_email             = "contact@yourcompany.com"
+blog_url                 = "https://blog.yourcompany.com"
+twitter_handle           = "yourcompany"
+
+# Permission settings (customize based on your security requirements)
+default_repo_permission  = "read"
+allow_internal_repos     = true
+allow_pages              = false
+allow_private_pages      = false
+allow_private_repos      = true
+allow_public_pages       = false
+allow_public_repos       = false
+allow_repo_creation      = true
+allow_private_forks      = false
+
+# Project settings
+enable_org_projects      = true
+enable_repo_projects     = true
+
+# Security settings
+require_commit_signoff   = true
+
+# Optional security features
+# security_team_slug     = "security-team"
+# security_role_id       = 123456
+# webhook_url           = "https://your-webhook-endpoint.com"
+# webhook_secret        = "your-webhook-secret"
