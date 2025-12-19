@@ -296,7 +296,7 @@ No modules.
 | <a name="input_email"></a> [email](#input\_email) | The publicly visible email address for the organization. | `string` | `null` | no |
 | <a name="input_enterprise_id"></a> [enterprise\_id](#input\_enterprise\_id) | The ID of the enterprise that will own the organization. Either this or enterprise\_slug must be provided. | `string` | `null` | no |
 | <a name="input_enterprise_slug"></a> [enterprise\_slug](#input\_enterprise\_slug) | The slug of the enterprise (e.g., 'my-enterprise'). Either this or enterprise\_id must be provided. | `string` | `null` | no |
-| <a name="input_github_enterprise_base_url"></a> [github\_enterprise\_base\_url](#input\_github\_enterprise\_base\_url) | The base URL of the GitHub Enterprise instance. | `string` | `"https://prorail.ghe.com/"` | no |
+| <a name="input_github_enterprise_base_url"></a> [github\_enterprise\_base\_url](#input\_github\_enterprise\_base\_url) | The base URL of the GitHub Enterprise instance. | `string` | `"https://company.ghe.com/"` | no |
 | <a name="input_has_organization_projects"></a> [has\_organization\_projects](#input\_has\_organization\_projects) | Whether organization projects are enabled for the organization. | `bool` | `true` | no |
 | <a name="input_has_repository_projects"></a> [has\_repository\_projects](#input\_has\_repository\_projects) | Whether repository projects are enabled for the organization. | `bool` | `true` | no |
 | <a name="input_location"></a> [location](#input\_location) | The location of the organization. | `string` | `null` | no |

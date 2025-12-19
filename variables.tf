@@ -202,5 +202,5 @@ variable "web_commit_signoff_required" {
 variable "github_enterprise_base_url" {
   type        = string
   description = "The base URL of the GitHub Enterprise instance."
-  default     = "https://prorail.ghe.com/"
+  default     = "https://company.ghe.com/"
 }
