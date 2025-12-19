@@ -48,7 +48,7 @@
 | <a name="input_enable_repo_projects"></a> [enable\_repo\_projects](#input\_enable\_repo\_projects) | Whether to enable repository-level projects. | `bool` | `true` | no |
 | <a name="input_enterprise_id"></a> [enterprise\_id](#input\_enterprise\_id) | Optional: The ID of the GitHub Enterprise. If provided, slug lookup is skipped. | `string` | `null` | no |
 | <a name="input_enterprise_slug"></a> [enterprise\_slug](#input\_enterprise\_slug) | The slug of the GitHub Enterprise (e.g., 'my-enterprise'). | `string` | n/a | yes |
-| <a name="input_github_enterprise_base_url"></a> [github\_enterprise\_base\_url](#input\_github\_enterprise\_base\_url) | The base URL of the GitHub Enterprise instance. | `string` | `"https://prorail.ghe.com/"` | no |
+| <a name="input_github_enterprise_base_url"></a> [github\_enterprise\_base\_url](#input\_github\_enterprise\_base\_url) | The base URL of the GitHub Enterprise instance. | `string` | `"https://company.ghe.com/"` | no |
 | <a name="input_location"></a> [location](#input\_location) | The physical location of the organization. | `string` | n/a | yes |
 | <a name="input_organization_description"></a> [organization\_description](#input\_organization\_description) | A brief description of the organization. | `string` | n/a | yes |
 | <a name="input_organization_display_name"></a> [organization\_display\_name](#input\_organization\_display\_name) | The display name for the organization. | `string` | n/a | yes |

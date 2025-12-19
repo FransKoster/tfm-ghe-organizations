@@ -176,5 +176,5 @@ variable "security_role_id" {
 variable "github_enterprise_base_url" {
   type        = string
   description = "The base URL of the GitHub Enterprise instance."
-  default     = "https://prorail.ghe.com/"
+  default     = "https://company.ghe.com/"
 }
